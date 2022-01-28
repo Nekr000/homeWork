@@ -10,9 +10,18 @@
 }
 
 .input {
-    margin: 10px;
-    background: yellow;
-    color: green;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #444444;
+    border-width: 0;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Playfair Display';
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #fffdee;
+    text-transform: uppercase;
+    transition: 1s cubic-bezier(.165, .84, .44, 1);
 }
 
 .input.focus {
@@ -30,8 +39,34 @@
 .button {
     margin: 10px;
     width: 60px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -1px -1px #000;
+    user-select: none;
+    outline: none;
+    background: black;
+    background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0;
+    box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+
 }
 
 .button.disabled {
     color: #444444;
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -1px -1px #000;
+    user-select: none;
+    outline: none;
+    background: red;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .0) 30%, rgba(255, 255, 255, .8), rgba(255, 255, 255, .0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, .5) 50%, rgba(0, 0, 0, 0) 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0;
+    box-shadow: rgba(0, 0, 0, .3) 0 2px 5px;
 }

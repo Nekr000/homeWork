@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Message.module.css';
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 
 type propsType={
@@ -19,7 +20,7 @@ function Message(props: propsType) {
                 <div> {props.message}</div>
                 <div> {props.time}  </div>
                 <textarea></textarea>
-                <button>Send</button>
+                <SuperButton>Send</SuperButton>
 
             </div>
         </div>

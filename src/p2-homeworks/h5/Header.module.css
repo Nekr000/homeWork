@@ -1,0 +1,29 @@
+.link {
+    text-decoration: none;
+    color: red;
+    margin: 10px;
+}
+.link:hover {
+    color: green;
+}
+.link:focus{
+    color: blueviolet;
+}
+.block {
+    width: 21px;
+    height: 21px;
+
+    margin: 10px;
+    background: black;
+}
+.header {
+    display: flex;
+    width: 280px;
+    transition-duration: 100ms;
+    transform: translate(-250px);
+}
+
+.header:hover {
+    transition-duration: 100ms;
+    transform: translate(0);
+}

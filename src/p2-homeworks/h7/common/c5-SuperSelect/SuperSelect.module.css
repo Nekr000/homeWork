@@ -1,0 +1,37 @@
+.select {
+    width: 100px;
+    padding: 5px;
+    padding-right: 30px;
+
+    cursor: pointer;
+
+    appearance: none;
+    background-color: blueviolet;
+    background-image: url('img.png') ;
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: 35px auto, 100%;
+
+    border: 2px inset rgb(118, 118, 118);
+    color: gold;
+}
+ .select:focus {
+     outline: none;
+ 
+ }
+
+ .option {
+     color: gold;
+     background: blueviolet ;
+ }
+
+ .option:checked {
+     background: black;
+     color: gold   ;
+ }
+
+ .option:hover {
+     box-shadow: 0 0 10px 100px darkred inset;
+     transition: all .2s ease-in-out;
+     background: olivedrab;
+ }
